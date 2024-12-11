@@ -1,6 +1,8 @@
 # Vehicle_Parking_Management_System
 ## A Database Management System Project
-This is a basic database management system for vehicle parking management.<h3>
+This is a basic database management system for vehicle parking management.<br>
+###  _Visit the last section of this readme to check the special guidelines._
+
 
 ### Technical Requirement For The Project:
 •	Front-End: HTML, CSS, JavaScript
@@ -49,3 +51,8 @@ status ENUM('Booked', 'Empty') NOT NULL,
 license_no VARCHAR(10), entry_time DATETIME, 
 mobile_no VARCHAR(10), 
 FOREIGN KEY (mobile_no) REFERENCES users(mobile_no) ON DELETE CASCADE ON UPDATE CASCADE);
+
+## Special Guideline
+o Make sure to put the file in folder named "htdocs" inside Apache direcory.
+o Make sure that the SQL Server is running fine.
+o Make sure that PHP is configured properly with Apache and SQL
