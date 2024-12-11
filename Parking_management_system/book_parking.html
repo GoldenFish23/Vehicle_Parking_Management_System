@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Book a Parking
+        </title>
+        <style>
+            body{
+                background-image: url("im/aac47997d1f700b9dbd0af658368120e.jpg");
+                margin: 0px;
+            }
+            nav h1{
+                font-size: 34px;
+                padding:0px 13px;
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgb(55, 43, 225);
+                color: White;
+                padding: 15px;
+            }
+            nav ul{
+                display: flex;
+            }
+            nav ul li{
+                padding: 10px;
+                list-style: none;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+            }
+            .parking_form{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                height: 70vh;
+                
+            }
+            .parking_form form{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                background-color: blue;
+                padding: 10px;
+            }
+            form h6{
+                color: white;
+                font-size: large;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <h1>Book a Parking</h1>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="user.html">User</a>
+                </li>
+                <li>
+                    <a href="file.php">Find Vehicle</a>
+                </li>
+            </ul>
+        </nav>
+        <div class = "parking_form">
+            <form action="book_parking.php" method="post">
+                <h6>Mobile No.</h6>
+                <input type="text" name="mobile_no" required>
+                <br>
+                <h6>License No.</h6>
+                <input type="text" name="license_no" required>
+                <br>
+                <h6>Parking Slots</h6>
+                <select name="spot">
+                    <option value="Null" selected>Please-select</option>
+                    <option value=1>Slot1</option>
+                    <option value=2>Slot2</option>
+                    <option value=3>Slot3</option>
+                    <option value=4>Slot4</option>
+                    <option value=5>Slot5</option>
+                    <option value=6>Slot6</option>
+                    <option value=7>Slot7</option>
+                    <option value=8>Slot8</option>
+                    <option value=9>Slot9</option>
+                    <option value=10>Slot10</option>
+                </select>
+                <br>
+                <input type="submit" value="Book">
+            </form>
+        </div>
+    </body>
+</html>

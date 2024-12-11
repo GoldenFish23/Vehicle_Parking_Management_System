@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Parking Management System</title>
+        <style>
+            body{
+                background-image: url("im/aac47997d1f700b9dbd0af658368120e.jpg");
+                margin: 0px;
+            }
+            nav h1{
+                font-size: 34px;
+                padding:0px 13px;
+            }
+            nav{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgb(55, 43, 225);
+                color: White;
+                padding: 15px;
+            }
+            nav ul{
+                display: flex;
+            }
+            nav ul li{
+                padding: 10px;
+                list-style: none;
+            }
+            nav ul li a{
+                color: white;
+                text-decoration: none;
+            }
+            .login_form{
+                display: flex;
+                justify-content: center;
+                align-items:center;
+                height: 70vh;
+                
+            }
+            .login_form form{
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                background-color: blue;
+                padding: 10px;
+            }
+            form h6{
+                color: white;
+                font-size: large;
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <h1>Login</h1>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="user.html">User</a>
+                </li>
+                <li>
+                    <a href="register_user.html">Registration</a>
+                </li>
+            </ul>
+        </nav>
+        <div class = "login_form">
+            <form action="user_login.php" method="post">
+                <h6>Mobile No.</h6>
+                <input type="text" name="mobile_no" required>
+                <br>
+                <h6>Password</h6>
+                <input type="password" name="password" required>
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>
