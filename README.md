@@ -3,6 +3,14 @@
 This is a basic database management system for vehicle parking management.<br>
 ###  _Visit the last section of this readme to check the special guidelines._
 
+### Screenshots
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20002004.png">
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20002235.png">
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20001811.png">
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20001026.png">
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20160031.png">
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20160813.png">
+<img src = "https://github.com/GoldenFish23/Vehicle_Parking_Management_System/blob/main/Screenshots/Screenshot%202024-11-23%20161453.png">
 
 ### Technical Requirement For The Project:
 •	Front-End: HTML, CSS, JavaScript
